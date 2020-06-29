@@ -4,7 +4,8 @@ require 'pry'
 
 def load_library(learn)
   emoticons=YAML.load_file(learn)
-  
+  emoticons.each do |face, emoticon|
+    emoticon
   
 end
 
