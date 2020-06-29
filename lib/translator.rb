@@ -5,7 +5,8 @@ require 'pry'
 def load_library(learn)
   emoticons=YAML.load_file(learn)
   emoticons.each do |face, emoticon|
-    emoticon
+    emoticons[face]={:english => emoticon[0]}
+      
   
 end
 
