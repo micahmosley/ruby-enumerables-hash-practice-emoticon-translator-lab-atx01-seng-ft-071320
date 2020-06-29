@@ -4,8 +4,8 @@ require 'pry'
 
 def load_library(learn)
   emoticons=YAML.load_file(learn)
-  puts emoticons
-  binding.pry
+  
+  
 end
 
 def get_japanese_emoticon
